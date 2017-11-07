@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory name="SessionFactoryName">
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">rTotggcuosTGTxMyFMGWUSNZdXAQFoyd+r5jw+3HaZo=</property>
+        <property name="hibernate.connection.url">jdbc:mysql://61.28.226.170:3306</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.default_catalog">empdb</property>
+        <property name="hibernate.default_schema">empdb</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+    </session-factory>
+</hibernate-configuration>
